@@ -22,3 +22,6 @@ http://www.pydev.org/nightly/
 结论：
 通过Pydev下载插件时，如果出现以上错误时反复尝试即可
 
+推荐方式：Installing with the zip file
+site受网络干扰，且对方网络经常不稳定，安装过程漫长
+而zip方式只需下载20M左右的包之后解压即可完成
