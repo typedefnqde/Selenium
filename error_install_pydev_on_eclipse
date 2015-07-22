@@ -1,0 +1,24 @@
+在eclipse上安装Pydev插件
+按照说明：http://www.pydev.org/manual_101_install.html
+采用方式 Installing with the update site
+
+出错
+An error occurred while collecting items to be installed
+session context was:(profile=DefaultProfile, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+No repository found containing: osgi.bundle,org.eclipse.equinox.concurrent,1.0.300.v20120912-130548
+
+
+推测：
+http://www.pydev.org/updates/
+http://www.pydev.org/nightly/
+是虚拟地址，并且访问这两个地址时没有自动跳转到真正的地址
+之后直接访问
+ https://dl.bintray.com/fabioz/pydev/nightly
+ https://dl.bintray.com/fabioz/pydev/all
+
+真正的原因：由于当时网络不稳定引起
+依据：出错时无法访问虚拟地址，连zip的下载地址也无法访问，正常时可以访问
+
+结论：
+通过Pydev下载插件时，如果出现以上错误时反复尝试即可
+
