@@ -1,7 +1,12 @@
-eclipse
-  pydev 
-  subclipse
-  
+eclipse插件安装
+  pydev
+    官网下载zip包解压，放到eclipse的dropins目录下
+  svn
+    安装subclipse
+    从http://subclipse.tigris.org/servlets/ProjectProcess?pageID=p4wYuA
+    找最新版本的release链接: http://subclipse.tigris.org/update_x.x.x
+    采用udate_site的方式安装
+    
 notepad++
 
 MySQL-front
