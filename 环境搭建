@@ -7,6 +7,12 @@ eclipse插件安装
     找最新版本的release链接: http://subclipse.tigris.org/update_x.x.x
     采用udate_site的方式安装
     
+  安装过程可能出现的问题
+    No repository found containin:...
+      原因：网络不稳定引起
+      解决：多尝试几次
+    
+    
 notepad++
 
 MySQL-front
